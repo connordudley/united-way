@@ -1,0 +1,35 @@
+.main-footer {
+	padding: 30px 0px 100px 0px;
+	background: $footerBG;
+	font-size: 14px;
+	font-family:$roboto;
+	color: $mainText;
+	text-align: center;
+	text-transform: uppercase;
+
+	@include bp(phone) {
+		padding:30px 0px 50px 0px
+	}
+
+	a{
+		font-size: 14px;
+		font-family:$roboto;
+		color: $mainText;
+		text-decoration: none;
+	}
+}
+
+.form-footer{
+	padding:30px 0px !important;
+	background: rgba(77, 115, 142,0.8);
+	color:#ffffff;
+	font-size: 15px;
+	font-family:$roboto;
+
+	img{
+		width:25px;
+		height:25px;
+	}
+
+
+}
